@@ -19,8 +19,9 @@ $(function() {
         method: "PUT",
         success: function(response) {
           console.log(response);
-          loadProduct();
+          loadProduct(); 
           $("#updateModal").modal("hide");
+          //
         }
       });
     });
@@ -39,7 +40,7 @@ function addProduct() {
         $("#title").val("");
         $("#body").val("");
         loadRecipies();
-        $("#addModal").modal("hide");
+        $("#exampleModal").modal("hide");
       }
     });
   }
