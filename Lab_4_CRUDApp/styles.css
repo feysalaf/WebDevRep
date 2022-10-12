@@ -1,0 +1,80 @@
+html{
+    max-width:1920px;
+    margin: 0 auto;
+}
+
+.navbar{
+    background-color:#e6e6e6;
+    opacity:95%;
+   
+}
+
+.navbar .navbar-brand{
+    font-family:gugi;
+    color: #868686;
+    font-size:30px;
+    
+}
+
+.navbar .nav-item{
+    padding:10px;
+    font-size:18px;
+}
+
+.navbar .btn{
+    margin-top:15%;
+}
+ 
+ 
+.carousel-caption h1{
+    color:rgb(255, 255, 255);
+    font-size:90px;
+}
+
+.card_container{
+    display:grid;
+}
+ 
+.card-body{
+    font-size:100px;
+    margin-top:-45%;
+    margin-left:6%;
+    margin-right:10%;
+    font-weight:bold;
+    z-index:100;
+}
+.card-body p{
+    font-family:sans-serif;
+    color:rgb(228, 228, 228);
+}
+img{
+    filter:brightness(70%);
+}
+
+table{
+    padding-top:50px;
+    width:400px;
+}
+
+.table_parent{
+    padding:100px;
+}
+
+.data_meta_container{
+    height:100vh;
+    border:1px solid white;
+    width:60%;
+    margin:0 auto;
+    
+}
+
+.button_container{
+    float:right;
+    padding:10px;
+}
+
+.to_populate{
+    padding:10px;
+    margin-top:70px;
+    border:1px solid black;
+}
